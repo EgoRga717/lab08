@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/EgoRga717/lab05.svg?branch=master)](https://travis-ci.org/EgoRga717/lab05)
+[![Build Status](https://travis-ci.org/EgoRga717/lab06.svg?branch=master)](https://travis-ci.org/EgoRga717/lab06)
 ## Laboratory work II
 
 Данная лабораторная работа посвещена изучению систем контроля версий на примере **Git**.
@@ -219,5 +219,5 @@ Copyright (c) 2015-2019 The ISC Authors
 ```
 
 =======
-# lab05
+# lab06
 >>>>>>> 0b200969348aa99015bbc9ee2043a059628eb281
