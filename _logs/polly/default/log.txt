@@ -1,0 +1,50 @@
+Execute command: [
+  `which`
+  `cmake`
+]
+[/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07]> "which" "cmake"
+/usr/bin/cmake
+Execute command: [
+  `cmake`
+  `--version`
+]
+[/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07]> "cmake" "--version"
+cmake version 3.10.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+Execute command: [
+  `cmake`
+  `-H.`
+  `-B/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_builds/default`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/tools/polly/default.cmake`
+  `-DCMAKE_INSTALL_PREFIX=/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default`
+]
+[/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07]> "cmake" "-H." "-B/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_builds/default" "-DCMAKE_TOOLCHAIN_FILE=/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/tools/polly/default.cmake" "-DCMAKE_INSTALL_PREFIX=/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default"
+-- [polly] Used toolchain: Default
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/yagoriy/projects/hunter
+-- [hunter] [ Hunter-ID: xxxxxxx | Toolchain-ID: 9b2c9d4 | Config-ID: 2f6b703 ]
+-- [hunter] GTEST_ROOT: /home/yagoriy/projects/hunter/_Base/xxxxxxx/9b2c9d4/2f6b703/Install (ver.: 1.10.0)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_builds/default
+Execute command: [
+  `cmake`
+  `--build`
+  `/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_builds/default`
+  `--target`
+  `install`
+  `--`
+]
+[/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07]> "cmake" "--build" "/home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_builds/default" "--target" "install" "--"
+[ 50%] Built target print
+[100%] Built target demo
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/bin/demo
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/lib/libprint.a
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/include
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/include/print.hpp
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/cmake/print-config.cmake
+-- Installing: /home/yagoriy/Desktop/indProg/EgoRga717/workspace/projects/lab07/_install/default/cmake/print-config-noconfig.cmake
